@@ -23,7 +23,8 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
 - C++ Scripts can be used exactly like GDScripts
 - Supports Script Templates (Pre-Defined/User-Defined)
-- Supports Built-in Script Mode
+- Supports Built-in Script Mode (Embedded)
+- Supports C++ Tool Script Mode (In-Editor Execution)
 - Next-Gen Hot-Reloading Both at Runtime & Editor
 - Real-Time GDExtension Development
 - Operating System Emulation (Unix/WinNT)

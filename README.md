@@ -16,7 +16,7 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 **It is a dream come true!**
 
 ## 🛠️ Current Features
-- Super Lightweight (8MB)
+- Super Lightweight (6MB)
 - Very Fast & Reliable
 - Multi-Threaded Compilation & Source Caching
 - Debug Information Support
@@ -25,6 +25,8 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 - Supports Script Templates (Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
+- Supports Exporting Properties from C++ Scripts
+- Multiple Interpreter Backends (NitroJIT, Meteora, A.K.I.R.A etc.)
 - Next-Gen Hot-Reloading Both at Runtime & Editor
 - Real-Time GDExtension Development
 - Operating System Emulation (Unix/WinNT)

@@ -45,6 +45,7 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 - Code Compression/Encryption (External/Built-in)
 - Direct GetNode & GetTree API
 - User Defined Preprocessor Definitions
+- Supports In-Editor C++ Headers
 - Module Boot/Shutdown Events
 - And Much More!
 

@@ -47,6 +47,9 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 - User Defined Preprocessor Definitions
 - Supports In-Editor C++ Headers
 - Module Boot/Shutdown Events
+- Supports C++ Headers Directly Inside Editor
+- Supports Scene Node Referencing
+- Supports Source Control using Git
 - And Much More!
 
 > [!IMPORTANT]  

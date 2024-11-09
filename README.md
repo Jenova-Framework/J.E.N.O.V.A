@@ -52,6 +52,9 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 - Supports Source Control using Git
 - And Much More!
 
+## 📋 Source Code
+Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
+
 > [!IMPORTANT]  
 > Jenova Only Supports Godot 4.2+, Windows 7 to 11 x64, Linux and Mac support are not planned for now.
 > At the moment Jenova only provides MSVC Support, However you can use Visual Studio directly.

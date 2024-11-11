@@ -54,6 +54,12 @@ By using Jenova Framework, You can program your entire game in C++ without any i
 
 ## 📋 Source Code
 Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
+> Note that this repository is **intended for releases of the proprietary version** and is **licensed differently** from the open-source public access version. Do not confuse the two.
+
+## 👻 Why Called Jenova?
+I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'
+
+Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
 
 > [!IMPORTANT]  
 > Jenova Only Supports Godot 4.2+, Windows 7 to 11 x64, Linux and Mac support are not planned for now.

@@ -4,7 +4,7 @@
 ![JENOVA-Screenshot](https://github.com/user-attachments/assets/f17e2947-622d-47c2-9d2f-de10137a3279)
 
 <h3 align="center">
-  <a href="https://youtu.be/r01HLjdXV6o">Video Log I</a> • <a href="https://youtu.be/QnX8RZW9Jiw">Video Log II</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a>
+  <a href="https://youtu.be/r01HLjdXV6o">Video Log I</a> • <a href="https://youtu.be/QnX8RZW9Jiw">Video Log II</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a> • <a href="https://github.com/Jenova-Framework/Jenova-Runtime">Source Code</a>
 </h3>
 
 ## 🪶 What is it?

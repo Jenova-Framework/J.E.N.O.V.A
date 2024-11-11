@@ -32,7 +32,7 @@ By using the Jenova Framework, you can program your entire game in C++ without a
 - Visual Studio Side-by-Side Deep Integration
 - Visual Studio Exporter & Build System (2017-2022)
 - Auto Detection of Installed Visual Studios
-- Supports External Libraries and .NET Invocation
+- Supports External Libraries and .NET Invoke
 - Watchdog System (Reload-On-Build)
 - Built-in Terminal Logging System (Customizable)
 - Asset Monitor System API (File/Directory Tracking)
@@ -80,4 +80,4 @@ Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framew
 
 ***Jenova is free software.***
 
-Developed with 💙 and 🩸 by Hamid Memar
+Developed with 💙 and 🩸 by Hamid.Memar

@@ -8,15 +8,18 @@
 </h3>
 
 ## 🪶 What is it?
-**Projekt J.E.N.O.V.A** is an extension library for the Godot 4 Game Engine that brings fully-featured C++ scripting directly into the Godot Editor. It allows the use of modern C++20 standards within the Godot Engine, similar to GDScript.
+**Projekt J.E.N.O.V.A** is a comprehensive series of extension libraries for the Godot 4 Game Engine that brings fully-featured C++ scripting directly into the Godot Editor. It allows the use of modern C++20 standards within the Godot Engine, similar to GDScript. 
 
-With Projekt J.E.N.O.V.A, there are no limits. You can integrate OpenCV, CUDA, Vulkan, OpenMP, and any other modern C++ features, All supported by the powerful MSVC backend.
-By using Jenova Framework, You can program your entire game in C++ without any issues. It also provides security features to protect your code and assets in the future.
+By using Jenova Framework you can easily program your entire game or application in C/C++ without any issues. You can also integrate OpenCV, CUDA, Vulkan, OpenMP and any other modern C++ features seamlessly, All supported by the powerful backend.
 
-**It is a dream come true!**
+### Structure of Projekt J.E.N.O.V.A
+- **Jenova Framework**: The framework contains Jenova Runtime and JenovaSDK.
+- **Jenova Runtime (Core)**: The heart of the framework, It includes the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.
+- **JenovaSDK**: An optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.
 
 ## 🛠️ Current Features
 - Super Lightweight (6MB)
+- User-Friendly and Easy to Use
 - Very Fast & Reliable
 - Multi-Threaded Compilation & Source Caching
 - Debug Information Support
@@ -70,7 +73,7 @@ Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting 
 > Current builds doe not include the Virtual Machine and Emulator. While the code for these features is present, they are disabled because they are still heavily under development.
 
 > [!CAUTION]
-> Current builds are in Alpha stage, Backup your project files! You may end up with data loss!
+> Current builds are in the Alpha stage, Backup your project files! You may end up with data loss! Despite the current build being stable, having backups is always recommended.
 
 <h2>
   <table style="border: none; border-collapse: collapse;">

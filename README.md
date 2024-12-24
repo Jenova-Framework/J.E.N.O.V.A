@@ -57,7 +57,7 @@ By using Jenova Framework you can easily program your entire game or application
 
 ## 📋 Source Code
 Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
-> Note that this repository is **intended for releases of the proprietary version** and is **licensed differently** from the open-source public access version. Do not confuse the two.
+> Note that this repository is **intended for releases of the proprietary version** and is **licensed differently** from the open-source public access version. Do not confuse the two. You can read about differences [here](https://github.com/Jenova-Framework/Jenova-Runtime?tab=readme-ov-file#open-source-vs-proprietary).
 
 ## 👻 Why Called Jenova?
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'
@@ -65,9 +65,10 @@ I've received some amusing comments about the project name, so here's the backst
 Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
 
 > [!IMPORTANT]  
-> Jenova Only Supports Godot 4.2+, Windows 7 to 11 x64, Linux and Mac support are not planned for now.
-> At the moment Jenova only provides MSVC Support, However you can use Visual Studio directly.
-> If you need C++ Scripting with support of Linux or Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
+> Jenova Supports Godot 4.2+, Windows 7 to 11 x64 and Linux x64, Mac support is not planned for now.
+> At the moment Jenova provides MSVC and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
+>
+> If you need C++ Scripting with support Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
 
 > [!NOTE]  
 > Current builds doe not include the Virtual Machine and Emulator. While the code for these features is present, they are disabled because they are still heavily under development.

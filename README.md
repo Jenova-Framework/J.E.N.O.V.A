@@ -71,7 +71,7 @@ Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting 
 > If you need C++ Scripting with support Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
 
 > [!NOTE]  
-> Current builds does not include the Virtual Machine and Emulator. While the code for these features is present, they are disabled because they are still heavily under development.
+> Current builds do not include the Virtual Machine and Emulator. While the code for these features is present, they are disabled because they are still heavily under development.
 
 > [!CAUTION]
 > Current builds are in the Alpha stage, Backup your project files! You may end up with data loss! Despite the current build being stable, having backups is always recommended.

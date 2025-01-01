@@ -18,7 +18,7 @@ By using Jenova Framework you can easily program your entire game or application
 - **JenovaSDK**: An optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.
 
 ## 🛠️ Current Features
-- Super Lightweight (6MB)
+- Super Lightweight (5MB)
 - User-Friendly and Easy to Use
 - Very Fast & Reliable
 - Multi-Threaded Compilation & Source Caching

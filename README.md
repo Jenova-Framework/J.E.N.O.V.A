@@ -64,7 +64,7 @@ I've received some amusing comments about the project name, so here's the backst
 
 Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
 
-## 📋 Getting Started
+## 📃 Getting Started
 To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/GettingStarted). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. 
 To help you navigate we've prepared a very detailed guide that covers every detail and component of the framework. 
 Additionally, we regularly publish video tutorials to provide further assistance.

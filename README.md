@@ -4,7 +4,7 @@
 ![JENOVA-Screenshot](https://github.com/user-attachments/assets/f17e2947-622d-47c2-9d2f-de10137a3279)
 
 <h3 align="center">
-  <a href="https://youtu.be/r01HLjdXV6o">Video Log I</a> • <a href="https://youtu.be/QnX8RZW9Jiw">Video Log II</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a> • <a href="https://github.com/Jenova-Framework/Jenova-Runtime">Source Code</a>
+ <a href="https://jenova-framework.github.io/docs/">Documentation</a> • <a href="https://youtu.be/r01HLjdXV6o">Video Log I</a> • <a href="https://youtu.be/QnX8RZW9Jiw">Video Log II</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a> • <a href="https://github.com/Jenova-Framework/Jenova-Runtime">Source Code</a>
 </h3>
 
 ## 🪶 What is it?
@@ -64,6 +64,13 @@ I've received some amusing comments about the project name, so here's the backst
 
 Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
 
+## 📋 Getting Started
+To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/GettingStarted). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. To help you navigate we've prepared a very detailed guide that covers every detail and component of the framework. Additionally, we regularly publish video tutorials to provide further assistance.
+
+Projekt J.E.N.O.V.A also has an offical Discord Server:
+
+<a href="https://discord.gg/p7zAf6aBPz" title="Join J.E.N.O.V.A Official Discord Server"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="Discord" height="40" /></a>
+
 > [!IMPORTANT]  
 > Jenova Supports Godot 4.2+, Windows 7 to 11 x64 and Linux x64, Mac support is not planned for now.
 > At the moment Jenova provides MSVC and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
@@ -76,20 +83,7 @@ Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting 
 > [!CAUTION]
 > Current builds are in the Alpha stage, Backup your project files! You may end up with data loss! Despite the current build being stable, having backups is always recommended.
 
-<h2>
-  <table style="border: none; border-collapse: collapse;">
-    <tr>
-      <td>
-        <img src="https://github.com/user-attachments/assets/99bf011e-37fb-498e-b4ef-15c418ec2fcd" alt="Icon" width="28" height="28">
-      </td>
-      <td>
-        <a href="https://discord.gg/p7zAf6aBPz">Join J.E.N.O.V.A Official Discord Server</a>
-      </td>
-    </tr>
-  </table>
-</h2>
-
+---
 ***Jenova is a Free software.***
-
 
 Developed with 💙 and 🩸By Hamid.Memar

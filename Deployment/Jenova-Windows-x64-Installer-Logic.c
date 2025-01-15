@@ -1,4 +1,4 @@
-// Jenova Framework Installer Logic v1.5
+// Jenova Framework Installer Logic v1.6
 // Developed by Hamid.Memar 2024-2025
 
 // Configuration
@@ -222,6 +222,33 @@ bool InstallJenova()
 	// Task 10 : Finalizing
 	currentTask = CreateNewTask("Finalizing", "💚");
 	SimulateFakeProcess(5, 1000);
+	String extensionListFile = CombineStrings(installationPath, "/.godot/extension_list.cfg");
+	if (DoesFileExist(extensionListFile))
+	{
+		String extensionListContent = ReadStringFromFile(extensionListFile);
+		if (!extensionListContent)
+		{
+			SetTaskTitle(currentTask, ColorizeText("Error: Installer failed to finalize installation : Read Error.", Color_Error));
+			MarkTaskFailed(currentTask, false);
+			return false;
+		}
+		String extensionListNewContent = CombineStrings(extensionListContent, "res://Jenova/Jenova.Runtime.gdextension\n");
+		if (!WriteStringToFile(extensionListFile, extensionListNewContent))
+		{
+			SetTaskTitle(currentTask, ColorizeText("Error: Installer failed to finalize installation : Write Error.", Color_Error));
+			MarkTaskFailed(currentTask, false);
+			return false;
+		}
+	}
+	else
+	{
+		if (!WriteStringToFile(extensionListFile, "res://Jenova/Jenova.Runtime.gdextension\n"))
+		{
+			SetTaskTitle(currentTask, ColorizeText("Error: Installer failed to finalize installation : Write Error.", Color_Error));
+			MarkTaskFailed(currentTask, false);
+			return false;
+		}
+	}
 	UpdateTaskCounter(10, totalTaskCount); Wait(500);
 	MarkTaskDone(currentTask, true);
 	Refresh();

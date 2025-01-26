@@ -3,8 +3,8 @@
 
 // Configuration
 const bool RequiresAdminAccess = false;
-const String JenovaRuntimeLatestStableURL = "https://github.com/Jenova-Framework/J.E.N.O.V.A/releases/download/v0.3.5.0-Alpha/Jenova.Framework.0.3.5.0.Alpha.Build.77400.Win64.7z";
-const String JenovaRuntimeLatestStableHash = "8c0315e0ba236dc3d8fad1a1d715f022";
+const String JenovaRuntimeLatestStableURL = "https://github.com/Jenova-Framework/J.E.N.O.V.A/releases/download/v0.3.5.2-Alpha/Jenova.Framework.0.3.5.2.Alpha.Build.77550.Win64.7z";
+const String JenovaRuntimeLatestStableHash = "29e1ce7a08c20eab799b29c27881f800";
 
 // Global Instances
 Instance currentTask = 0;

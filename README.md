@@ -53,6 +53,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports C++ Headers Directly Inside Editor
 - Supports Scene Node Referencing
 - Supports Source Control using Git
+- Supports Blazium and Redot Forks
 - And Much More!
 
 ## 📋 Source Code
@@ -63,6 +64,11 @@ Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framew
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'
 
 Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
+
+## 🛠️ GDExtension vs Jenova Framework
+Jenova Framework is not only a toolset to ease the development of GDExtension in Godot, It implements a fully-featured C++ script backend and adds deep integration to the engine script interface just like GDScript, C#, and Python.
+
+Jenova Runtime contains an interpreter and C++ Script Instance implementation. Jenova Framework itself comes with C++ Script Object and C++ Language implementations. Everything works together to bring the actual scripting experience using the C++ language.
 
 ## 📃 Getting Started
 To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/GettingStarted). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. 

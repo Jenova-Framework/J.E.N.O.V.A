@@ -51,6 +51,8 @@ By using Jenova Framework you can easily program your entire game or application
 - User Defined Preprocessor Definitions
 - Supports In-Editor C++ Headers
 - Module Boot/Shutdown Events
+- Capable of Invoking C# (GodotSharp) and GDScript Directly
+- Compatible with Mono Builds
 - Supports C++ Headers Directly Inside Editor
 - Supports Scene Node Referencing
 - Supports Source Control using Git

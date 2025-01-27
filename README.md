@@ -23,6 +23,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Very Fast & Reliable
 - Multi-Threaded Compilation & Source Caching
 - Debug Information Support
+- Managed Safe Execution (MSE)
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
 - C++ Scripts can be used exactly like GDScripts
 - Supports Script Templates (Pre-Defined/User-Defined)

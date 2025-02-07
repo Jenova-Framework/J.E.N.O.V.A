@@ -29,13 +29,14 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports Script Templates (Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
-- Supports Exporting Properties from C++ Scripts
+- Supports Exporting Properties, Resources and References from C++ Scripts
 - Multiple Interpreter Backends (NitroJIT, Meteora, A.K.I.R.A etc.)
 - Next-Gen Hot-Reloading Both at Runtime & Editor
 - Real-Time GDExtension Development
 - Operating System Emulation (Unix/WinNT)
 - Visual Studio Side-by-Side Deep-Integration
 - Visual Studio Exporter & Build System (2017-2022)
+- Visual Studio Code Integration (Windows/Linux)
 - Auto Detection of Installed Visual Studios
 - Supports External Libraries and .NET Invoke
 - Watchdog System (Reload-On-Build)

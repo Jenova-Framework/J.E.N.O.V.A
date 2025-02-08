@@ -75,7 +75,7 @@ Jenova Framework is not only a toolset to ease the development of GDExtension in
 Jenova Runtime contains an interpreter and C++ Script Instance implementation. Jenova Framework itself comes with C++ Script Object and C++ Language implementations. Everything works together to bring the actual scripting experience using the C++ language.
 
 ## 📃 Getting Started
-To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/GettingStarted). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. 
+To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/Getting-Started). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. 
 To help you navigate we've prepared a very detailed guide that covers every detail and component of the framework. 
 Additionally, we regularly publish video tutorials to provide further assistance.
 

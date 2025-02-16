@@ -30,6 +30,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
 - Supports Exporting Properties, Resources and References from C++ Scripts
+- Full Support for MSVC, LLVM, MinGW and GCC/Clang
 - Multiple Interpreter Backends (NitroJIT, Meteora, A.K.I.R.A etc.)
 - Next-Gen Hot-Reloading Both at Runtime & Editor
 - Real-Time GDExtension Development
@@ -85,7 +86,7 @@ Projekt J.E.N.O.V.A also has an offical Discord Server:
 
 > [!IMPORTANT]  
 > Jenova Supports Godot 4.2+, Windows 7 to 11 x64 and Linux x64, Mac support is not planned for now.
-> At the moment Jenova provides MSVC and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
+> Jenova provides MSVC, Clang-cl, MinGW, LLVM Clang and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
 >
 > If you need C++ Scripting with support Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
 

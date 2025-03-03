@@ -30,6 +30,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
 - Supports Exporting Properties, Resources and References from C++ Scripts
+- Supports Engine Method/Property Queries (Animation Editor, Binding etc.)
 - Full Support for MSVC, LLVM, MinGW and GCC/Clang
 - Multiple Interpreter Backends (NitroJIT, Meteora, A.K.I.R.A etc.)
 - Next-Gen Hot-Reloading Both at Runtime & Editor

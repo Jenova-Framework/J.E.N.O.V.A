@@ -31,6 +31,8 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports C++ Tool Script Mode (In-Editor Execution)
 - Supports Exporting Properties, Resources and References from C++ Scripts
 - Supports Engine Method/Property Queries (Animation Editor, Binding etc.)
+- Supports Custom Class Name & Custom Class Icon for C++ Scripts
+- Supports Custom Documentation for C++ Scripts
 - Full Support for MSVC, LLVM, MinGW and GCC/Clang
 - Multiple Interpreter Backends (NitroJIT, Meteora, A.K.I.R.A etc.)
 - Next-Gen Hot-Reloading Both at Runtime & Editor

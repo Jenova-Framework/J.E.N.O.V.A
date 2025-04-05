@@ -66,7 +66,6 @@ By using Jenova Framework you can easily program your entire game or application
 
 ## 📋 Source Code
 Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
-> Note that this repository is **intended for releases of the proprietary version** and is **licensed differently** from the open-source public access version. Do not confuse the two. You can read about differences [here](https://github.com/Jenova-Framework/Jenova-Runtime?tab=readme-ov-file#open-source-vs-proprietary).
 
 ## 👻 Why Called Jenova?
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'

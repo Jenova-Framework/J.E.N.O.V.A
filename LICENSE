@@ -1,17 +1,20 @@
-Jenova Framework License Version 1.0
-Copyright (c) 2024 The Ænema (Hamid.Memar)
+MIT License
+Copyright (©) 2024 MemarDesign™ LLC, The Ænema (Hamid.Memar)
 
-1. Grant of License
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software (the “Software”) to use, copy, and distribute compiled versions of the Software for both personal and commercial purposes, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- Source Code: The Software is provided as closed-source. Access to the binaries is permitted, but they may not be decompiled, reverse-engineered, or otherwise altered in any way.
-- Modifications: Modifications to the Software are not allowed, nor may derivative works be created based on the Software, except with explicit written permission from the author.
-- Redistribution: You may redistribute the Software in its original, unmodified compiled form, provided that all recipients receive a copy of this license.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. Disclaimer of Warranty
-THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-3. Termination
-This license is valid until terminated. If you violate any of its terms, your right to use the Software will automatically terminate, and you must destroy all copies of the Software in your possession.
-
-Note: This license applies exclusively to proprietary releases of Jenova Runtime. The open-source version is licensed separately under the MIT License.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

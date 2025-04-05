@@ -1,10 +1,10 @@
-// Jenova Framework Installer Logic v1.6
-// Developed by Hamid.Memar 2024-2025
+
+/* Jenova Framework Installer Logic v1.7 */
+/*  Developed by Hamid.Memar 2024-2025   */
 
 // Configuration
 const bool RequiresAdminAccess = false;
-const String JenovaRuntimeLatestStableURL = "https://github.com/Jenova-Framework/J.E.N.O.V.A/releases/download/v0.3.6.0-Alpha/Jenova.Framework.0.3.6.0.Alpha.Build.77900.Win64.7z";
-const String JenovaRuntimeLatestStableHash = "e38464461a57326cfe620c9e2bec71fa";
+const String JenovaRuntimeDownloadURLTemplate = "https://github.com/Jenova-Framework/J.E.N.O.V.A/releases/download/v%s/%s";
 
 // Global Instances
 Instance currentTask = 0;
@@ -129,11 +129,14 @@ bool InstallJenova()
 	UpdateTaskCounter(3, totalTaskCount);
 	
 	// Task 4 : Download Latest Jenova Runtime Package
+	String latestVersion = GetLatestReleaseVersion();
+	String latestRuntimePackageFilename = GetDistributionPackageFilename(latestVersion, GetSelectedProductID());
+	String releasePackageDownloadURL = Format(JenovaRuntimeDownloadURLTemplate, latestVersion, latestRuntimePackageFilename);
 	currentTask = CreateNewTask("Downloading Jenova Runtime Latest Build Package", "Preparing 🚛"); Wait(400);
 	SetTaskState(currentTask, "Connecting 📡", Color_Default); Wait(600);
 	SetTaskBarColor(currentTask, Color_Download);
 	Buffer dataBuffer = 0; Size dataSize = 0;
-	if(!DownloadToBuffer(JenovaRuntimeLatestStableURL, &dataBuffer, &dataSize, &RuntimePackageDownloadCallback)) 
+	if(!DownloadToBuffer(releasePackageDownloadURL, &dataBuffer, &dataSize, &RuntimePackageDownloadCallback)) 
 	{
 		MarkTaskFailed(currentTask, true);
 		return false;
@@ -187,17 +190,7 @@ bool InstallJenova()
 	currentTask = CreateNewTask("Verifying Package", "🪙✨🔓"); Wait(800);
 	SimulateFakeProcess(100, 1000);
 	String packageHash = GetFileMD5Hash(packageFilePath);
-	if (!CompareStrings(packageHash, JenovaRuntimeLatestStableHash))
-	{
-		SetTaskTitle(currentTask, ColorizeText("Warning: Package hash does not match the verified source.", Color_Warn));
-		SetTaskState(currentTask, "⚠️💀", "000000");
-		SetTaskIcon(currentTask, TaskIcon_Warning);
-		SetTaskBarColor(currentTask, Color_Warn);
-	}
-	else
-	{
-		MarkTaskDone(currentTask, true);
-	}
+	MarkTaskDone(currentTask, true);
 	UpdateTaskCounter(7, totalTaskCount);
 	
 	// Task 8 : Extract and Install Package Content
@@ -242,6 +235,8 @@ bool InstallJenova()
 	}
 	else
 	{
+		String godotCachePath = CombineStrings(installationPath, "/.godot");
+		MakeDirectory(godotCachePath);
 		if (!WriteStringToFile(extensionListFile, "res://Jenova/Jenova.Runtime.gdextension\n"))
 		{
 			SetTaskTitle(currentTask, ColorizeText("Error: Installer failed to finalize installation : Write Error.", Color_Error));

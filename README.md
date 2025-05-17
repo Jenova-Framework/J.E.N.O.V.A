@@ -8,7 +8,7 @@
 </h3>
 
 ## 🪶 What is it?
-**Projekt J.E.N.O.V.A** is a comprehensive series of extension libraries for the Godot 4 Game Engine that brings fully-featured C++ scripting directly into the Godot Editor. It allows the use of modern C++20 standards within the Godot Engine, similar to GDScript. 
+**Projekt J.E.N.O.V.A** is a comprehensive series of extension libraries for the Godot 4 Game Engine expanding its capabilities with cutting-edge technologies. It introduces fully-featured C++ scripting within the Godot Editor and allows the use of modern C++ 20/23 standards within the Godot Engine, similar to GDScript/C#.
 
 By using Jenova Framework you can easily program your entire game or application in C/C++ without any issues. You can also integrate OpenCV, CUDA, Vulkan, OpenMP and any other modern C++ features seamlessly, All supported by the powerful backend.
 
@@ -16,6 +16,7 @@ By using Jenova Framework you can easily program your entire game or application
 - **Jenova Framework**: The framework contains Jenova Runtime and JenovaSDK.
 - **Jenova Runtime (Core)**: The heart of the framework, It includes the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.
 - **JenovaSDK**: An optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.
+- **JenovaRTX**: A real-time RTX-powered path tracer for Godot developed using Jenova Framework featuring DLSS 4.0 and Ray Reconstruction.
 
 ## 🛠️ Current Features
 - Super Lightweight (5MB)
@@ -65,7 +66,7 @@ By using Jenova Framework you can easily program your entire game or application
 - And Much More!
 
 ## 📋 Source Code
-Jenova Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
+Jenova Runtime Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
 
 ## 👻 Why Called Jenova?
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'
@@ -73,7 +74,7 @@ I've received some amusing comments about the project name, so here's the backst
 Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
 
 ## 🛠️ GDExtension vs Jenova Framework
-Jenova Framework is not only a toolset to ease the development of GDExtension in Godot, It implements a fully-featured C++ script backend and adds deep integration to the engine script interface just like GDScript, C#, and Python.
+Jenova Framework is not only a toolset to ease the development of GDExtension in Godot, It implements a fully-featured C++ script backend and adds deep integration to the engine script interface just like GDScript, C# and Python.
 
 Jenova Runtime contains an interpreter and C++ Script Instance implementation. Jenova Framework itself comes with C++ Script Object and C++ Language implementations. Everything works together to bring the actual scripting experience using the C++ language.
 
@@ -91,12 +92,6 @@ Projekt J.E.N.O.V.A also has an offical Discord Server:
 > Jenova provides MSVC, Clang-cl, MinGW, LLVM Clang and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
 >
 > If you need C++ Scripting with support Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
-
-> [!NOTE]  
-> Current builds do not include the Virtual Machine and Emulator. While the code for these features is present, they are disabled because they are still heavily under development.
-
-> [!CAUTION]
-> Current builds are in the Alpha stage, Backup your project files! You may end up with data loss! Despite the current build being stable, having backups is always recommended.
 
 ---
 ***Jenova is a Free software.***

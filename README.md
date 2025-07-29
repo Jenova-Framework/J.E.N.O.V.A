@@ -8,7 +8,7 @@
 </h3>
 
 ## 🪶 What is it?
-**Projekt J.E.N.O.V.A** is a comprehensive series of extension libraries for the Godot 4 Game Engine expanding its capabilities with cutting-edge technologies. It introduces fully-featured C++ scripting within the Godot Editor and allows the use of modern C++ 20/23 standards within the Godot Engine, similar to GDScript/C#.
+**Projekt J.E.N.O.V.A** is a comprehensive series of components for the Godot Engine expanding its capabilities with cutting-edge technologies. It introduces fully-featured C++ scripting within the Godot Editor and allows the use of modern C++ 20/23 standards within the Godot Engine, similar to GDScript/C#.
 
 By using Jenova Framework you can easily program your entire game or application in C/C++ without any issues. You can also integrate OpenCV, CUDA, Vulkan, OpenMP and any other modern C++ features seamlessly, All supported by the powerful backend.
 
@@ -62,7 +62,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports C++ Headers Directly Inside Editor
 - Supports Scene Node Referencing
 - Supports Source Control using Git
-- Supports Blazium and Redot Forks
+- Supports Engine Forks
 - And Much More!
 
 ## 📋 Source Code
@@ -88,7 +88,7 @@ Projekt J.E.N.O.V.A also has an offical Discord Server:
 <a href="https://discord.gg/p7zAf6aBPz" title="Join J.E.N.O.V.A Official Discord Server"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="Discord" height="40" /></a>
 
 > [!IMPORTANT]  
-> Jenova Supports Godot 4.2+, Windows 7 to 11 x64 and Linux x64, Mac support is not planned for now.
+> Jenova Supports Godot 4.2+, Windows 7 to 11 x64 and Linux x64, Mac and Web support is planned.  
 > Jenova provides MSVC, Clang-cl, MinGW, LLVM Clang and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
 >
 > If you need C++ Scripting with support Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).

@@ -27,7 +27,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Managed Safe Execution (MSE)
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
 - C++ Scripts can be used exactly like GDScripts
-- Supports Script Templates (Pre-Defined/User-Defined)
+- Supports Script Templates (Smart/Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
 - Supports Exporting Properties, Resources and References from C++ Scripts

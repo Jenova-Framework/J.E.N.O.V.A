@@ -17,7 +17,9 @@ By using Jenova Framework you can easily program your entire game or application
 - **Jenova Runtime (Core)**: The heart of the framework, It includes the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.
 - **JenovaSDK**: An optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.
 - **JenovaRTX**: A real-time RTX-powered path tracer for Godot developed using Jenova Framework featuring DLSS 4.0 and Ray Reconstruction.
-
+- **JenovaLLM** : A minimal Real-Time Vulkan powered Large Language Model Runtime developed using Jenova Framework.
+- **Jenova Code IDE**: A full-spectrum integrated development environment for Godot built on VSCode Core and engineered for deep integration and modular control.
+  
 ## 🛠️ Current Features
 - Super Lightweight (5MB)
 - User-Friendly and Easy to Use

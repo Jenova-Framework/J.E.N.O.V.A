@@ -1,11 +1,11 @@
-<img width="1500" height="260" alt="jenova-banner-small" src="https://github.com/user-attachments/assets/50210fe0-fb77-473a-b2de-6a74829fca98" />
+<img width="1200" height="208" alt="Jenova-Framework-Banner" src="https://github.com/user-attachments/assets/79c4bd1d-dfe3-48dc-925d-e8bbddcf28ca" />
 
 # Projekt J.E.N.O.V.A
 
 ![JENOVA-Screenshot](https://github.com/user-attachments/assets/f17e2947-622d-47c2-9d2f-de10137a3279)
 
 <h3 align="center">
- <a href="https://jenova-framework.github.io/docs/">Documentation</a> • <a href="https://youtu.be/r01HLjdXV6o">Video Log I</a> • <a href="https://youtu.be/QnX8RZW9Jiw">Video Log II</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a> • <a href="https://github.com/Jenova-Framework/Jenova-Runtime">Source Code</a>
+ <a href="https://jenova-framework.github.io/docs/">Documentation</a> • <a href="https://youtu.be/W1C6mFLndbc">Installation</a> • <a href="https://github.com/Deneuma-Studio/Deicidium">Deicidium</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a> • <a href="https://github.com/Jenova-Framework/Jenova-Runtime">Source Code</a>
 </h3>
 
 ## 🪶 What is it?
@@ -18,10 +18,11 @@ By using Jenova Framework you can easily program your entire game or application
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | **Jenova Framework** | The framework contains Jenova Runtime and JenovaSDK.                                                                                                        | -            |
 | **Jenova Runtime (Core)** | The heart of the framework, including the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.                                           | MIT          |
-| **Jenova SDK**        | Optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.                                          | MIT          |
-| **Jenova RTX**        | Real-time RTX-powered path tracer for Godot developed using Jenova Framework, featuring DLSS 4.0 and Ray Reconstruction.                                    | Proprietary  |
-| **Jenova Fibers**     | Real-time GPU-accelerated per-strand hair rendering solution for Godot Engine, optimized for high-fidelity visual realism.                                  | Proprietary  |
-| **Jenova LLM**        | Minimal Real-Time Vulkan-powered Large Language Model Runtime developed using Jenova Framework.                                                             | Freeware     |
+| **Jenova SDK**        | Optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.                                         | MIT          |
+| **Jenova RTX**        | Real-time RTX-powered path tracer for Godot developed using Jenova Framework, featuring DLSS 4.0 and Ray Reconstruction.                                   | Proprietary  |
+| **Jenova Fibers**     | Real-time GPU-accelerated per-strand hair rendering solution for Godot Engine, optimized for high-fidelity visual realism.                                 | Proprietary  |
+| **Jenova Emulator**   | A fully featured virtual machine and operating system emulator for the Godot Engine, capable of running WinNT and Unix‑based operating systems.            | Proprietary  |
+| **Jenova LLM**        | Minimal Real-Time Vulkan-powered Large Language Model Runtime developed using Jenova Framework.                                                            | Freeware     |
 | **Jenova Code IDE**  | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                      | Freeware     |
   
 ## 🛠️ Current Features
@@ -47,8 +48,10 @@ By using Jenova Framework you can easily program your entire game or application
 - Operating System Emulation (Unix/WinNT)
 - Visual Studio Side-by-Side Deep-Integration
 - Visual Studio Exporter & Build System (2017-2022)
-- Visual Studio Code Integration (Windows/Linux)
+- Visual Studio Code Integration (Windows/Linux/MacOS)
 - Auto Detection of Installed Visual Studios
+- JetBrains CLion IDE Integration (Windows/Linux)
+- Neovim Integration (Linux)
 - Supports External Libraries and .NET Invoke
 - Watchdog System (Reload-On-Build)
 - Built-in Terminal Logging System (Customizable)
@@ -72,7 +75,7 @@ By using Jenova Framework you can easily program your entire game or application
 - And Much More!
 
 ## 📋 Source Code
-Jenova Runtime Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
+Jenova Runtime (Core) Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
 
 ## 👻 Why Called Jenova?
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'

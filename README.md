@@ -1,3 +1,4 @@
+<img width="1500" height="260" alt="jenova-banner-small" src="https://github.com/user-attachments/assets/50210fe0-fb77-473a-b2de-6a74829fca98" />
 
 # Projekt J.E.N.O.V.A
 

@@ -14,16 +14,16 @@
 By using Jenova Framework you can easily program your entire game or application in C/C++ without any issues. You can also integrate OpenCV, CUDA, Vulkan, OpenMP and any other modern C++ features seamlessly, All supported by the powerful backend.
 
 ### Structure of Projekt J.E.N.O.V.A
-| Component           | Description                                                                                                                                                  | License      |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| **Jenova Framework** | The framework contains Jenova Runtime and JenovaSDK.                                                                                                        | -            |
-| **Jenova Runtime (Core)** | The heart of the framework, including the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.                                           | MIT          |
-| **Jenova SDK**        | Optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.                                         | MIT          |
-| **Jenova RTX**        | Real-time RTX-powered path tracer for Godot developed using Jenova Framework, featuring DLSS 4.0 and Ray Reconstruction.                                   | Proprietary  |
-| **Jenova Fibers**     | Real-time GPU-accelerated per-strand hair rendering solution for Godot Engine, optimized for high-fidelity visual realism.                                 | Proprietary  |
-| **Jenova Emulator**   | A fully featured virtual machine and operating system emulator for the Godot Engine, capable of running WinNT and Unix‑based operating systems.            | Proprietary  |
-| **Jenova LLM**        | Minimal Real-Time Vulkan-powered Large Language Model Runtime developed using Jenova Framework.                                                            | Freeware     |
-| **Jenova Code IDE**  | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                      | Freeware     |
+| Component             | Description                                                                                                                                                   | License      |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| **Jenova Framework**  | The framework contains Jenova Runtime and JenovaSDK.                                                                                                          | -            |
+| **Jenova Runtime**    | The heart of the framework, including the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.                                                  | MIT          |
+| **Jenova SDK**        | Optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.                                            | MIT          |
+| **Jenova RTX**        | Real-time RTX-powered path tracer for Godot developed using Jenova Framework, featuring DLSS 4.0 and Ray Reconstruction.                                      | Proprietary  |
+| **Jenova Fibers**     | Real-time GPU-accelerated per-strand hair rendering solutions for Godot Engine, optimized for fast and high-fidelity hair and fur rendering.                  | Proprietary  |
+| **Jenova Emulator**   | A fully featured virtual machine and operating system emulator for Godot Engine, capable of running WinNT and Unix‑based operating systems.                   | Proprietary  |
+| **Jenova LLM**        | Minimal Real-Time Vulkan-powered Large Language Model Runtime developed using Jenova Framework. [*](https://jenova-framework.github.io/docs/pages/Misc/Clarifications#ai-slop-labeling)           | Freeware     |
+| **Jenova Code IDE**   | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                        | Freeware     |
   
 ## 🛠️ Current Features
 - Super Lightweight (5MB)
@@ -75,7 +75,7 @@ By using Jenova Framework you can easily program your entire game or application
 - And Much More!
 
 ## 📋 Source Code
-Jenova Runtime (Core) Source Code is now available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
+Jenova Runtime (Core) Source Code is available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
 
 ## 👻 Why Called Jenova?
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'

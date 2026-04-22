@@ -24,16 +24,20 @@ By using Jenova Framework you can easily program your entire game or application
 | **Jenova Emulator**   | A fully featured virtual machine and operating system emulator for Godot Engine, capable of running WinNT and Unix‑based operating systems.                   | Proprietary  |
 | **Jenova LLM**        | Minimal Real-Time Vulkan-powered Large Language Model Runtime developed using Jenova Framework. [*](https://jenova-framework.github.io/docs/pages/Misc/Clarifications#ai-slop-labeling)           | Freeware     |
 | **Jenova Code IDE**   | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                        | Freeware     |
+| **Blade Language**   | A Cross-Platform, high performance & fully featured meta-scripting language for Godot powered by Pure C                                                                                            | MIT          |
   
 ## 🛠️ Current Features
-- Super Lightweight (5MB)
-- User-Friendly and Easy to Use
+- Super Lightweight (~5MB)
+- User-Friendly and Easy-to-Use
 - Very Fast & Reliable
+- C++ Scripts can be used exactly like GDScripts
 - Multi-Threaded Compilation & Source Caching
 - Debug Information Support
 - Managed Safe Execution (MSE)
+- Auto Debugging Setup Support for Visual Studio
+- Auto Debugging Setup Support for Visual Studio Code
+- Dedicated Profiling & Monitoring Tools
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
-- C++ Scripts can be used exactly like GDScripts
 - Supports Script Templates (Smart/Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
@@ -48,7 +52,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Operating System Emulation (Unix/WinNT)
 - Visual Studio Side-by-Side Deep-Integration
 - Visual Studio Exporter & Build System (2017-2022)
-- Visual Studio Code Integration (Windows/Linux/MacOS)
+- Visual Studio Code Integration (Windows/Linux)
 - Auto Detection of Installed Visual Studios
 - JetBrains CLion IDE Integration (Windows/Linux)
 - Neovim Integration (Linux)
@@ -58,22 +62,24 @@ By using Jenova Framework you can easily program your entire game or application
 - Asset Monitor System API (File/Directory Tracking)
 - On-Demand Reload Per Script Change
 - Lambda Signal Callbacks
-- Advanced Menu Options
+- Advanced Menu Options & Utilities
 - Supports Additional/External Headers & Libraries
 - Build And Run Mode (Build Before Play/Play After Build)
 - Code Compression/Encryption (External/Built-in)
 - Direct GetNode & GetTree API
 - User Defined Preprocessor Definitions
-- Supports In-Editor C++ Headers
 - Module Boot/Shutdown Events
 - Capable of Invoking C# (GodotSharp) and GDScript Directly
+- Custom Package Installer (User Packages)
+- Clektron Script Engine (Electron-C)
+- Blade Meta-Language Integration (Alternative to GDScript)
 - Compatible with Mono Builds
+- Compatible with All Engine Forks
 - Supports C++ Headers Directly Inside Editor
 - Supports Scene Node Referencing
 - Supports Source Control using Git
-- Supports Engine Forks
 - And Much More!
-
+  
 ## 📋 Source Code
 Jenova Runtime (Core) Source Code is available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
 

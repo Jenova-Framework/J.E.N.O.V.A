@@ -1,4 +1,6 @@
-<img width="1200" height="208" alt="Jenova-Framework-Banner" src="https://github.com/user-attachments/assets/79c4bd1d-dfe3-48dc-925d-e8bbddcf28ca" />
+<picture>
+<img style="width: 100%; height: auto; display: block;" alt="Jenova-Framework-Banner" src="https://github.com/user-attachments/assets/79c4bd1d-dfe3-48dc-925d-e8bbddcf28ca" />
+</picture>
 
 # Projekt J.E.N.O.V.A
 
@@ -37,6 +39,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Auto Debugging Setup Support for Visual Studio
 - Auto Debugging Setup Support for Visual Studio Code
 - Dedicated Profiling & Monitoring Tools
+- Dedicated C++ Syntax Highlighter
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
 - Supports Script Templates (Smart/Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)

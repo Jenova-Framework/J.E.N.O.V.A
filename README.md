@@ -10,7 +10,7 @@
  <a href="https://jenova-framework.github.io/docs/">Documentation</a> • <a href="https://youtu.be/W1C6mFLndbc">Installation</a> • <a href="https://github.com/Deneuma-Studio/Deicidium">Deicidium</a> • <a href="https://youtu.be/yDTRpFKqWwo">Features</a> • <a href="https://github.com/Jenova-Framework/Jenova-Runtime">Source Code</a>
 </h3>
 
-## 🪶 What is it?
+## What is it?
 **Projekt J.E.N.O.V.A** is a comprehensive series of components for the Godot Engine expanding its capabilities with cutting-edge technologies. It introduces fully-featured C++ scripting within the Godot Editor and allows the use of modern C++ 20/23 standards within the Godot Engine, similar to GDScript/C#.
 
 By using Jenova Framework you can easily program your entire game or application in C/C++ without any issues. You can also integrate OpenCV, CUDA, Vulkan, OpenMP and any other modern C++ features seamlessly, All supported by the powerful backend.
@@ -28,7 +28,7 @@ By using Jenova Framework you can easily program your entire game or application
 | **Jenova Code IDE**   | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                        | Freeware     |
 | **Blade Language**   | A Cross-Platform, high performance & fully featured meta-scripting language for Godot powered by Pure C                                                                                            | MIT          |
   
-## 🛠️ Current Features
+## Current Features
 - Super Lightweight (~5MB)
 - User-Friendly and Easy-to-Use
 - Very Fast & Reliable
@@ -38,8 +38,8 @@ By using Jenova Framework you can easily program your entire game or application
 - Managed Safe Execution (MSE)
 - Auto Debugging Setup Support for Visual Studio
 - Auto Debugging Setup Support for Visual Studio Code
-- Dedicated Dispatcher & Future Functions
 - Dedicated Profiling & Monitoring Tools
+- Dedicated Dispatcher & Future Functions
 - Dedicated C++ Syntax Highlighter
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
 - Supports Script Templates (Smart/Pre-Defined/User-Defined)
@@ -85,20 +85,20 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports Source Control using Git
 - And Much More!
   
-## 📋 Source Code
+## Source Code
 Jenova Runtime (Core) Source Code is available on [GitHub](https://github.com/Jenova-Framework/Jenova-Runtime) for everyone under MIT license.
 
-## 👻 Why Called Jenova?
+## Why Called Jenova?
 I've received some amusing comments about the project name, so here's the backstory. Although I'm a huge FF7 fan, the name isn’t directly linked to Final Fantasy. Jenova is derived from 'Jehovah,' meaning 'New God.' I chose this name because Godot translates to 'Small God.' Therefore, in this context, Jenova signifies a new god emerging from a small god. Additionally, it means 'Well-Born'
 
 Now, why Jenova and J.E.N.O.V.A? The answer is straightforward. Name formatting like this was popular in the 2000s, similar to F.E.A.R. or A.K.I.R.A. It doesn't reference anything specific. However, it's worth noting that Projekt J.E.N.O.V.A refers to the entire toolchain, which includes the Framework, Runtime, Emulator, etc.
 
-## 🛠️ GDExtension vs Jenova Framework
+## GDExtension vs Jenova Framework
 Jenova Framework is not only a toolset to ease the development of GDExtension in Godot, It implements a fully-featured C++ script backend and adds deep integration to the engine script interface just like GDScript, C# and Python.
 
 Jenova Runtime contains an interpreter and C++ Script Instance implementation. Jenova Framework itself comes with C++ Script Object and C++ Language implementations. Everything works together to bring the actual scripting experience using the C++ language.
 
-## 📃 Getting Started
+## Getting Started
 To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/Getting-Started). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. 
 To help you navigate we've prepared a very detailed guide that covers every detail and component of the framework. 
 Additionally, we regularly publish video tutorials to provide further assistance.

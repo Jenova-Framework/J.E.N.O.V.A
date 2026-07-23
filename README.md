@@ -38,6 +38,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Managed Safe Execution (MSE)
 - Auto Debugging Setup Support for Visual Studio
 - Auto Debugging Setup Support for Visual Studio Code
+- Dedicated Dispatcher & Future Functions
 - Dedicated Profiling & Monitoring Tools
 - Dedicated C++ Syntax Highlighter
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
@@ -75,7 +76,8 @@ By using Jenova Framework you can easily program your entire game or application
 - Capable of Invoking C# (GodotSharp) and GDScript Directly
 - Custom Package Installer (User Packages)
 - Clektron Script Engine (Electron-C)
-- Blade Meta-Language Integration (Alternative to GDScript)
+- Built-in Developer Console (Powered by Clektron)
+- Blade Meta-Language Integration (GDScript Alternative)
 - Compatible with Mono Builds
 - Compatible with All Engine Forks
 - Supports C++ Headers Directly Inside Editor

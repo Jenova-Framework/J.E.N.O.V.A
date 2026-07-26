@@ -21,13 +21,14 @@ By using Jenova Framework you can easily program your entire game or application
 | **Jenova Framework**  | The framework contains Jenova Runtime and JenovaSDK.                                                                                                          | -            |
 | **Jenova Runtime**    | The heart of the framework, including the Jenova Interpreter, Jenova Compiler Interface, Jenova Packer, etc.                                                  | MIT          |
 | **Jenova SDK**        | Optional component of Jenova Runtime, providing helpers and APIs for hot-reloading, global allocation/access, etc.                                            | MIT          |
+| **Jenova Carbon**     | Carbon is a **context‑aware C++ to C++ transpiler** built on top of the **Jenova Runtime** bringing new era of C++ Scripting.      | PJPL1          |
 | **Jenova RTX**        | Real-time RTX-powered path tracer for Godot developed using Jenova Framework, featuring DLSS 4.0 and Ray Reconstruction.                                      | Proprietary  |
 | **Jenova Fibers**     | Real-time GPU-accelerated per-strand hair rendering solutions for Godot Engine, optimized for fast and high-fidelity hair and fur rendering.                  | Proprietary  |
 | **Jenova Emulator**   | A fully featured virtual machine and operating system emulator for Godot Engine, capable of running WinNT and Unix‑based operating systems.                   | Proprietary  |
 | **Jenova LLM**        | Minimal Real-Time Vulkan-powered Large Language Model Runtime developed using Jenova Framework. [*](https://jenova-framework.github.io/docs/pages/Misc/Clarifications#ai-slop-labeling)           | Freeware     |
-| **Jenova Code IDE**   | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                        | Freeware     |
+| **Jenova Code IDE**   | Full-spectrum IDE for Godot built on VSCode Core, engineered for deep integration and modular control.                                                        | PJPL1 |
 | **Blade Language**   | A Cross-Platform, high performance & fully featured meta-scripting language for Godot powered by Pure C                                                                                            | MIT          |
-  
+
 ## Current Features
 - Fast, Reliable & Super Lightweight (~5MB)
 - User-Friendly and Easy-to-Use
@@ -35,12 +36,15 @@ By using Jenova Framework you can easily program your entire game or application
 - Multi-Threaded Compilation & Source Caching
 - Managed Safe Execution (MSE)
 - Debug Information/Debug Database Support
-- Auto Debugging Setup Support for Visual Studio
-- Auto Debugging Setup Support for Visual Studio Code
+- Auto Debugging Setup (ADS) for Visual Studio
+- Auto Debugging Setup (ADS) for Visual Studio Code
 - Dedicated Profiling & Monitoring Tools
 - Dedicated Dispatcher & Future Functions
-- Dedicated C++ Syntax Highlighter
+- Dedicated C++ Syntax Highlighter (Jenova/Carbon)
+- Annotation-Free & Class-Driven Scripting for C++ (Carbon)
+- Ground-Truth C++ Reflection System (Carbon Analyzer)
 - Built-in Package Manager (Compilers, SDKs, Tools, Plugins etc.)
+- 100+ Utility Functions to Simplify Development (aka JenovaSDK)
 - Supports Script Templates (Smart/Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
@@ -55,7 +59,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Real-Time GDExtension Development
 - Operating System Emulation (Unix/WinNT)
 - Visual Studio Side-by-Side Deep-Integration
-- Visual Studio Exporter & Build System (2017-2022)
+- Visual Studio Exporter & Build System (2017-2026)
 - Visual Studio Code Integration (Windows/Linux)
 - Auto Detection of Installed Visual Studios
 - JetBrains CLion IDE Integration (Windows/Linux)
@@ -64,16 +68,15 @@ By using Jenova Framework you can easily program your entire game or application
 - Watchdog System (Reload-On-Build)
 - Built-in Terminal Logging System (Customizable)
 - Asset Monitor System API (File/Directory Tracking)
-- On-Demand Reload Per Script Change
-- Lambda Signal Callbacks
+- On-Demand Reload By Per-Script Change Detection
+- Lambda Support for Signal Callbacks & Future Functions
 - Advanced Menu Options & Utilities
 - Supports Additional/External Headers & Libraries
 - Build And Run Mode (Build Before Play/Play After Build)
 - Code Compression/Encryption (External/Built-in)
-- Direct GetNode & GetTree API
 - User Defined Preprocessor Definitions
 - Module Boot/Shutdown Events
-- Capable of Invoking C# (GodotSharp) and GDScript Directly
+- Capable of Invoking C# (GodotSharp) & GDScript Directly
 - Custom Package Installer (User Packages)
 - Clektron Script Engine (Electron-C)
 - Built-in Developer Console (Powered by Clektron)
@@ -83,6 +86,7 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports C++ Headers Directly Inside Editor
 - Supports Scene Node Referencing
 - Supports Source Control using Git
+- Package Database Editor for Custom Repositories
 - And Much More!
   
 ## Source Code
@@ -98,7 +102,18 @@ Jenova Framework is not only a toolset to ease the development of GDExtension in
 
 Jenova Runtime contains an interpreter and C++ Script Instance implementation. Jenova Framework itself comes with C++ Script Object and C++ Language implementations. Everything works together to bring the actual scripting experience using the C++ language.
 
+[Read More...](https://jenova-framework.github.io/docs/pages/Misc/Clarifications/#rejection--denial)
+
+## Projekt Carbon
+**[Projekt Carbon](https://jenova-framework.github.io/docs/pages/Projekt-Carbon)** is a subset project of Jenova Framework reinventing C++ Scripting to its most efficient form.
+
+Carbon is a **context‑aware C++ to C++ transpiler** built on top of the **Jenova Runtime**. It takes a modernized, attribute‑driven form of C++ and generates fully integrated, hot‑reloadable native scripts for Godot Engine. The goal is to provide a **streamlined, class‑based scripting workflow** while preserving the full performance and flexibility of C++.
+
+Carbon is <u>not a new language</u>. It is the next-gen successor to Jenova C++ Scripts, presenting a form of C++ that has not existed before.  
+Carbon introduces ground‑truth reflection, metadata, automatic binding and lifecycle management through a compilation pipeline rather than relying on macros or runtime workarounds.
+
 ## Getting Started
+
 To get started with the Jenova Framework you can visit the official [Documentation](https://jenova-framework.github.io/docs/pages/Getting-Started). While the Jenova Framework is fairly easy to use its extensive features can be a bit overwhelming. 
 To help you navigate we've prepared a very detailed guide that covers every detail and component of the framework. 
 Additionally, we regularly publish video tutorials to provide further assistance.

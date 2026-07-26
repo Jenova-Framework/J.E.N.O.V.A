@@ -4,6 +4,7 @@
 
 // Configuration
 const bool RequiresAdminAccess = false;
+const bool IsDisabled = true;
 const String JenovaRuntimeDownloadURLTemplate = "https://github.com/Jenova-Framework/J.E.N.O.V.A/releases/download/v%s/%s";
 
 // Global Instances
@@ -63,6 +64,15 @@ bool InstallJenova()
 	auto totalTaskCount = 10;
 	UpdateTaskCounter(0, totalTaskCount);
 	
+	// Pre-Task : Check If Disabled
+	if (IsDisabled)
+	{
+		currentTask = CreateNewTask("Checking Installer State", "📡"); Wait(200);
+		SetTaskTitle(currentTask, ColorizeText("Auto Installer is disabled due to the version it installs is deprecated. It'll be back with the next release.", Color_Error));
+		MarkTaskFailed(currentTask, false);
+		return false;
+	}
+
 	// Task 1 : Validate Admin Access
 	currentTask = CreateNewTask("Validating Admin Privileges", "👮"); Wait(200);
 	SimulateFakeProcess(5, 1000);

@@ -29,13 +29,12 @@ By using Jenova Framework you can easily program your entire game or application
 | **Blade Language**   | A Cross-Platform, high performance & fully featured meta-scripting language for Godot powered by Pure C                                                                                            | MIT          |
   
 ## Current Features
-- Super Lightweight (~5MB)
+- Fast, Reliable & Super Lightweight (~5MB)
 - User-Friendly and Easy-to-Use
-- Very Fast & Reliable
 - C++ Scripts can be used exactly like GDScripts
 - Multi-Threaded Compilation & Source Caching
-- Debug Information Support
 - Managed Safe Execution (MSE)
+- Debug Information/Debug Database Support
 - Auto Debugging Setup Support for Visual Studio
 - Auto Debugging Setup Support for Visual Studio Code
 - Dedicated Profiling & Monitoring Tools
@@ -45,7 +44,8 @@ By using Jenova Framework you can easily program your entire game or application
 - Supports Script Templates (Smart/Pre-Defined/User-Defined)
 - Supports Built-in Script Mode (Embedded)
 - Supports C++ Tool Script Mode (In-Editor Execution)
-- Supports Exporting Properties, Resources and References from C++ Scripts
+- Supports Exporting Properties, Resources & References from C++ Scripts
+- Supports Exporting Signals & Callables from C++ Scripts
 - Supports Engine Method/Property Queries (Animation Editor, Binding etc.)
 - Supports Custom Class Name & Custom Class Icon for C++ Scripts
 - Supports Custom Documentation for C++ Scripts

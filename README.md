@@ -105,12 +105,15 @@ Jenova Runtime contains an interpreter and C++ Script Instance implementation. J
 [Read More...](https://jenova-framework.github.io/docs/pages/Misc/Clarifications/#rejection--denial)
 
 ## Projekt Carbon
-**[Projekt Carbon](https://jenova-framework.github.io/docs/pages/Projekt-Carbon)** is a subset project of Jenova Framework reinventing C++ Scripting to its most efficient form.
+**Projekt Carbon** is a subset project of Jenova Framework reinventing C++ Scripting to its most efficient form.
 
 Carbon is a **context‑aware C++ to C++ transpiler** built on top of the **Jenova Runtime**. It takes a modernized, attribute‑driven form of C++ and generates fully integrated, hot‑reloadable native scripts for Godot Engine. The goal is to provide a **streamlined, class‑based scripting workflow** while preserving the full performance and flexibility of C++.
 
 Carbon is <u>not a new language</u>. It is the next-gen successor to Jenova C++ Scripts, presenting a form of C++ that has not existed before.  
-Carbon introduces ground‑truth reflection, metadata, automatic binding and lifecycle management through a compilation pipeline rather than relying on macros or runtime workarounds.
+
+Carbon Toolkit introduces ground‑truth reflection, metadata, automatic binding and lifecycle management through a compilation pipeline rather than relying on macros or runtime workarounds.
+
+[Learn More...](https://jenova-framework.github.io/docs/pages/Projekt-Carbon)
 
 ## Getting Started
 
@@ -124,9 +127,9 @@ Projekt J.E.N.O.V.A also has an offical Discord Server:
 
 > [!IMPORTANT]  
 > Jenova Supports Godot 4.2+, Windows 7 to 11 x64 and Linux x64, Mac and Web support is planned.  
-> Jenova provides MSVC, Clang-cl, MinGW, LLVM Clang and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/tag/jenova-msvc-compiler-pkg-14.41.34120).
+> Jenova provides MSVC, Clang-cl, MinGW, LLVM Clang and GCC Support, However you can use Visual Studio on Windows directly without [Jenova MSVC Compiler Package](https://github.com/Jenova-Framework/Jenova-Packages/releases/edit/compilers-pkgs).
 >
-> If you need C++ Scripting with support Mac you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
+> If you need C++ Scripting with MacOS support you can use [Godot Sandbox](https://github.com/libriscv/godot-sandbox).
 
 ---
 ***Jenova is a Free software.***
